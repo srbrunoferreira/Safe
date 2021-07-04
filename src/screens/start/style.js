@@ -23,7 +23,7 @@ export const style = StyleSheet.create({
   },
 
   footerText: {
-    fontSize: 16.5
+    fontSize: 12.5
   },
 
   footerLink: {

@@ -3,7 +3,7 @@ import 'react-native-gesture-handler';
 import { NavigationContainer } from '@react-navigation/native';
 import { createDrawerNavigator } from '@react-navigation/drawer';
 
-import StartScreen from './screens/splash';
+import StartScreen from './screens/start';
 import HomeScreen from './screens/home';
 
 const Drawer = createDrawerNavigator();

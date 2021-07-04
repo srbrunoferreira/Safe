@@ -9,7 +9,7 @@ export default Paragraph = (props) => {
 const styles = StyleSheet.create({
 
   text: {
-    fontSize: 20,
+    fontSize: 18,
     lineHeight: 21,
     textAlign: 'center',
     marginBottom: 12,
