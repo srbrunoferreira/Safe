@@ -1,14 +1,20 @@
 export const theme = {
 
   color: {
-    primary: '#3300FF',
-    secundary: '#5C33FF',
-    tertiary: '#03D286',
+    primary: '#1564bf',
+    primaryLight: '#5e91f2',
+    primaryDark: '#003b8e',
 
-    textDark: '#24292E',
-    textLight: '#FAFAFF',
+    secondary: '#01579b',
+    secondaryLight: '#4f83cc',
+    secondaryDark: '#002f6c',
 
-    borderLight: '#EAE8FF'
+    primaryText: '#ffffff',
+    primaryTextDark: '#1565bf',
+
+    secondaryText: '#ffffff',
+
+    borderLight: '#eceff1'
   }
 
 };

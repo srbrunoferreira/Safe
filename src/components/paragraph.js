@@ -9,11 +9,11 @@ export default Paragraph = (props) => {
 const styles = StyleSheet.create({
 
   text: {
-    fontSize: 18,
+    fontSize: 17,
     lineHeight: 21,
     textAlign: 'center',
     marginBottom: 12,
-    color: theme.color.textDark,
+    color: theme.color.secondary,
   }
 
 });

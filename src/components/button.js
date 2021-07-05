@@ -14,8 +14,8 @@ export default function Button({ type = 'solid', title}) {
         <Text style={[
           style.text,
           type === 'outlined'
-            ? { color: theme.color.primary }
-            : { color: theme.color.textLight }
+            ? { color: theme.color.primaryTextDark }
+            : { color: theme.color.primaryText }
         ]}>{title}</Text>
       </View>
     </TouchableOpacity>
