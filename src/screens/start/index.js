@@ -7,7 +7,7 @@ import Button from '../../components/button';
 
 import { style } from './style';
 
-export default function StartScreen() {
+export default function StartScreen({ navigation }) {
   return (
     <View style={style.container}>
 
@@ -17,8 +17,8 @@ export default function StartScreen() {
       </View>
 
       <View style={style.buttonsContainer}>
-        <Button type="solid" title="Entrar" />
-        <Button type="outlined" title="Registrar-se" />
+        <Button title="Entrar" onPress={() => { navigation.navigate('LoginScreen') }} />
+        <Button type="outlined" title="Registrar-se" onPress={() => { navigation.navigate('RegisterUserScreen')}}/>
       </View>
 
       <View style={style.footer}>

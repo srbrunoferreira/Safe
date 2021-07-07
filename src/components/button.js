@@ -3,9 +3,9 @@ import { TouchableOpacity, View, Text, StyleSheet } from 'react-native';
 
 import { theme } from '../theme';
 
-export default function Button({ type = 'solid', title}) {
+export default function Button({ type = 'solid', title, onPress}) {
   return (
-    <TouchableOpacity>
+    <TouchableOpacity onPress={onPress} >
       <View style={[
         style.button,
         type === 'solid' ? style.solid : style.outline

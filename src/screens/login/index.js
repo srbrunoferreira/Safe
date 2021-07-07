@@ -3,10 +3,10 @@ import { View, Text } from 'react-native';
 
 import style from './style';
 
-export default HomeScreen = () => {
+export default LoginScreen = () => {
   return (
     <View>
-      <Text>HomeScreen</Text>
+      <Text>LoginScreen</Text>
     </View>
   );
 }
