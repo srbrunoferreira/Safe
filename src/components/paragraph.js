@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyleSheet, Text } from 'react-native';
-import { theme } from '../theme';
+import { theme } from '../global-styles';
 
 export default Paragraph = (props) => {
   return <Text style={styles.text} {...props}/>;

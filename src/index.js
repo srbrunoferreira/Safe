@@ -5,8 +5,8 @@ import { createDrawerNavigator } from '@react-navigation/drawer';
 import { createStackNavigator } from '@react-navigation/stack';
 
 import StartScreen from './screens/start';
-import LoginScreen from './screens/login';
-import RegisterUserScreen from './screens/register-user';
+import SignInScreen from './screens/signin';
+import SignUpScreen from './screens/signup';
 import HomeScreen from './screens/home';
 
 const Drawer = createDrawerNavigator();
@@ -29,11 +29,11 @@ export default App = () => {
 
           ) : (
 
-          <Stack.Navigator initialRouteName="LoginScreen" headerMode="none">
+          <Stack.Navigator initialRouteName="SignInScreen" headerMode="none">
 
             <Stack.Screen name="StartScreen" component={StartScreen} />
-            <Stack.Screen name="LoginScreen" component={LoginScreen} />
-            <Stack.Screen name="RegisterUserScreen" component={RegisterUserScreen} />
+            <Stack.Screen name="SignInScreen" component={SignInScreen} />
+            <Stack.Screen name="SignUpScreen" component={SignUpScreen} />
 
           </Stack.Navigator>
 

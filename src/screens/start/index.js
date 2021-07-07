@@ -5,11 +5,12 @@ import Logo from '../../components/logo';
 import Paragraph from '../../components/paragraph';
 import Button from '../../components/button';
 
+import { globalStyle } from '../../global-styles';
 import { style } from './style';
 
 export default function StartScreen({ navigation }) {
   return (
-    <View style={style.container}>
+    <View style={globalStyle.container}>
 
       <View>
         <Logo />
@@ -17,19 +18,19 @@ export default function StartScreen({ navigation }) {
       </View>
 
       <View style={style.buttonsContainer}>
-        <Button title="Entrar" onPress={() => { navigation.navigate('LoginScreen') }} />
-        <Button type="outlined" title="Registrar-se" onPress={() => { navigation.navigate('RegisterUserScreen')}}/>
+        <Button title="Entrar" onPress={() => { navigation.navigate('SignInScreen') }} />
+        <Button type="outlined" title="Registrar-se" onPress={() => { navigation.navigate('SignUpScreen') }} />
       </View>
 
       <View style={style.footer}>
         <TouchableOpacity>
-          <Text style={[style.footerText, style.footerLink]}>Termos de Uso</Text>
+          <Text style={[style.footerText, globalStyle.link]}>Termos de Uso</Text>
         </TouchableOpacity>
 
         <Text style={style.footerText}> e </Text>
 
         <TouchableOpacity>
-          <Text style={[style.footerText, style.footerLink]}>Política de Privacidade</Text>
+          <Text style={[style.footerText, globalStyle.link]}>Política de Privacidade</Text>
         </TouchableOpacity>
       </View>
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import { TouchableOpacity, View, Text, StyleSheet } from 'react-native';
 
-import { theme } from '../theme';
+import { theme } from '../global-styles';
 
 export default function Button({ type = 'solid', title, onPress}) {
   return (

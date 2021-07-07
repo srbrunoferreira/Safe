@@ -1,3 +1,5 @@
+import { StyleSheet } from 'react-native';
+
 export const theme = {
 
   color: {
@@ -18,3 +20,23 @@ export const theme = {
   }
 
 };
+
+export const globalStyle = StyleSheet.create({
+
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    padding: 10
+  },
+
+  link: {
+    color: theme.color.primary,
+    fontWeight: 'bold'
+  },
+
+  row: {
+    flexDirection: 'row'
+  }
+
+});

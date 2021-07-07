@@ -1,16 +1,8 @@
-import React from 'react';
 import { StyleSheet } from 'react-native';
 
-import { theme } from '../../theme';
+import { theme } from '../../global-styles';
 
 export const style = StyleSheet.create({
-
-  container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    padding: 10
-  },
 
   buttonsContainer: {
     marginTop: 30
@@ -24,11 +16,6 @@ export const style = StyleSheet.create({
 
   footerText: {
     fontSize: 12.5
-  },
-
-  footerLink: {
-    color: theme.color.primary,
-    fontWeight: 'bold'
   }
 
 });
