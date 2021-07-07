@@ -23,14 +23,14 @@ const style = StyleSheet.create({
   },
 
   image: {
-    width: 110,
-    height: 110
+    width: 120,
+    height: 120
   },
 
   title: {
     fontSize: 32,
     marginTop: 6,
-    marginBottom: 16,
+    marginBottom: 24,
     color: theme.color.primary,
     fontWeight: 'bold',
     letterSpacing: -1
