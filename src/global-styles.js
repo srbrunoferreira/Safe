@@ -23,11 +23,15 @@ export const theme = {
 
 export const globalStyle = StyleSheet.create({
 
-  container: {
+  wrapper: {
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
     padding: 10
+  },
+
+  containerOne: {
+    width: '100%'
   },
 
   link: {

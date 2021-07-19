@@ -10,7 +10,7 @@ import { style } from './style';
 
 export default function StartScreen({ navigation }) {
   return (
-    <View style={globalStyle.container}>
+    <View style={globalStyle.wrapper}>
 
       <View>
         <Logo />
@@ -19,7 +19,7 @@ export default function StartScreen({ navigation }) {
 
       <View style={style.buttonsContainer}>
         <Button title="Entrar" onPress={() => { navigation.navigate('SignInScreen') }} />
-        <Button type="outlined" title="Registrar-se" onPress={() => { navigation.navigate('SignUpScreen') }} />
+        <Button title="Registrar-se" type="outlined" onPress={() => { navigation.navigate('SignUpScreen') }} />
       </View>
 
       <View style={style.footer}>
